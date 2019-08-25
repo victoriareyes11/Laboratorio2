@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        tools:context=".RegistroActivity">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+                android:text="@string/Registro"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:textColor="@color/blue"/>
+    <ImageView android:layout_width="358dp"
+               android:layout_height="173dp"
+               android:src="@drawable/logoregistro"/>
+
+   <EditText android:layout_width="300sp"
+             android:layout_height="wrap_content"
+             android:id="@+id/et_emailreg"
+             android:hint="@string/Emailderegistro"
+             android:inputType="textEmailAddress"
+             android:layout_marginHorizontal="45sp"
+            />
+    <EditText android:layout_width="300sp"
+              android:layout_height="wrap_content"
+              android:id="@+id/et_contreg"
+              android:hint="@string/Contraseña"
+              android:layout_marginHorizontal="45sp"
+    />
+
+    <EditText android:layout_width="300sp"
+              android:layout_height="wrap_content"
+              android:id="@+id/et_confcontreg"
+              android:hint="@string/Confirmarcontraseña"
+              android:layout_marginHorizontal="45sp"
+    />
+
+    <Button android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_registroya"
+            android:text="@string/registrarme"
+            android:background="@color/steelblue"
+            android:layout_marginHorizontal="110dp"/>
+
+</LinearLayout>

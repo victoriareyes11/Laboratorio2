@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Laboratorio2</string>
+    <string name="Loading">Loading</string>
+    <string name="TODOENCASAPP">TODOENCASAAPP</string>
+    <string name="Emailderegistro">Email de registro</string>
+    <string name="Email">Email</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Ingresar">INGRESAR</string>
+    <string name="Registrarme">Registrarme</string>
+    <string name="Registro">Registro</string>
+    <string name="Confirmarcontraseña">Confirmar contraseña</string>
+    <string name="registrarme">REGISTRARME</string>
+</resources>

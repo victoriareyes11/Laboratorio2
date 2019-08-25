@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item   android:title=" "
+            android:id="@+id/ov_menu"
+            app:showAsAction="ifRoom|withText"></item>
+    <group  android:id="@+id/group">
+            <item android:id="@+id/item_salir"
+                  android:onClick="onGroupItemClick"
+                  android:title="Cerrar sesion"
+                  />
+
+    </group>
+
+
+
+</menu>
